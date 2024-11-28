@@ -15,6 +15,7 @@
   border-radius: 5px;
   width: 170px;
   height: 28px;
+  margin: 4px;
 }
 
 .bar .icon {
@@ -29,6 +30,10 @@
   height: 30%;
   border-radius: 5px;
   transition: width 0.2s ease;
+}
+
+.progress{
+  margin-right: 8px;
 }
 
 .bar span {
