@@ -1,0 +1,69 @@
+#custompandaHomoHolaSartan {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  background-color: #181b20;
+  border-radius: 5px;
+  width: 170px;
+  height: 28px;
+}
+
+.bar .icon {
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar .progress {
+  width: 100%;
+  height: 30%;
+  border-radius: 5px;
+  transition: width 0.2s ease;
+}
+
+.bar span {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.bar.health .icon i {
+  color: #ef4445;
+}
+
+.bar.shield .icon i {
+  color: #0077b6;
+}
+
+.bar.food .icon i {
+  color: #f49d0d;
+}
+
+.bar.thirst .icon i {
+  color: #0ea4eb;
+}
+
+.bar.health .progress {
+  background-color: #e63946;
+}
+
+.bar.shield .progress {
+  background-color: #0077b6;
+}
+
+.bar.food .progress {
+  background-color: #f49d0d;
+}
+
+.bar.thirst .progress {
+  background-color: #0ea4eb;
+}
